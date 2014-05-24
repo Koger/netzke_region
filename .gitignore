@@ -1,0 +1,10 @@
+.DS_Store
+*.tmproj
+*.swp
+.bundle
+log/*.log
+tmp/**/*
+vendor/gems/netzke-*
+public/uploads
+.vimrc
+.powrc
