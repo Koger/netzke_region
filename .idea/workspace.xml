@@ -13,8 +13,8 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/netzke-demo@db_sessions_create__netzke_demo.coverage" NAME="db:sessions:create: netzke-demo Coverage Results" MODIFIED="1397140431200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="netzke-demo" />
-    <SUITE FILE_PATH="coverage/netzke-demo@db_create__netzke_demo.coverage" NAME="db:create: netzke-demo Coverage Results" MODIFIED="1400920412212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="netzke-demo" />
     <SUITE FILE_PATH="coverage/netzke-demo@db_migrate__netzke_demo.coverage" NAME="db:migrate: netzke-demo Coverage Results" MODIFIED="1397140649607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="netzke-demo" />
+    <SUITE FILE_PATH="coverage/netzke-demo@db_create__netzke_demo.coverage" NAME="db:create: netzke-demo Coverage Results" MODIFIED="1400920412212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="netzke-demo" />
     <SUITE FILE_PATH="coverage/netzke-demo@Development__netzke_demo.coverage" NAME="Development: netzke-demo Coverage Results" MODIFIED="1400929280650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="netzke-demo" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -29,20 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
@@ -79,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geo_entity.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="geo_entity.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/geo_entity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.06085919" vertical-offset="0" max-vertical-offset="838">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140325151226_add_region_table.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140325151226_add_region_table.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="village_grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/village_grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
               <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
@@ -109,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_tab_panel.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="static_tab_panel.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/static_tab_panel.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -172,12 +172,12 @@
         <option value="$PROJECT_DIR$/app/models/village.rb" />
         <option value="$PROJECT_DIR$/app/models/district.rb" />
         <option value="$PROJECT_DIR$/app/models/country.rb" />
-        <option value="$PROJECT_DIR$/app/models/geo_entity.rb" />
         <option value="$PROJECT_DIR$/app/models/region.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/components/application.rb" />
+        <option value="$PROJECT_DIR$/app/models/geo_entity.rb" />
       </list>
     </option>
   </component>
@@ -218,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,7 +372,6 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,14 +607,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1027" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37700534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38074866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39865622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -622,13 +622,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -658,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,10 +805,10 @@
           <ID>RailsDependency</ID>
           <OriginalElement>#netzke-demo</OriginalElement>
           <nodes>
-            <node x="815.0" y="728.283984375">EduDoc</node>
             <node x="605.0" y="217.283984375">UserSessWork</node>
-            <node x="0.0" y="144.283984375">OrderActionType</node>
+            <node x="815.0" y="728.283984375">EduDoc</node>
             <node x="502.0" y="509.28398437500005">Reviewer</node>
+            <node x="0.0" y="144.283984375">OrderActionType</node>
             <node x="303.0" y="947.283984375">Subj</node>
             <node x="403.0" y="947.283984375">Patr</node>
             <node x="700.0" y="728.283984375">Building</node>
@@ -838,27 +832,27 @@
             <node x="228.0" y="801.283984375">Sgroup</node>
             <node x="914.0" y="436.283984375">Worktype</node>
             <node x="991.0" y="947.283984375">Fn0</node>
-            <node x="161.0" y="144.283984375">DiplomWorkTopic</node>
             <node x="0.0" y="1020.283984375">Fn1</node>
+            <node x="161.0" y="144.283984375">DiplomWorkTopic</node>
             <node x="636.0" y="144.283984375">DiplomReviewer</node>
-            <node x="753.0" y="217.283984375">PhoneNoType</node>
             <node x="601.0" y="947.283984375">Mn1</node>
+            <node x="753.0" y="217.283984375">PhoneNoType</node>
             <node x="0.0" y="728.283984375">SubjLng</node>
             <node x="351.0" y="728.283984375">Eduqual</node>
-            <node x="850.0" y="582.283984375">EduCost</node>
             <node x="608.0" y="582.283984375">EduForm</node>
+            <node x="850.0" y="582.283984375">EduCost</node>
             <node x="276.0" y="363.283984375">RoomPhone</node>
             <node x="791.0" y="144.283984375">ExamsheetItem</node>
             <node x="873.0" y="509.28398437500005">PhoneNo</node>
             <node x="827.0" y="655.283984375">Cafedra</node>
             <node x="394.0" y="436.283984375">SessResult</node>
             <node x="756.0" y="874.283984375">Topic</node>
-            <node x="0.0" y="290.283984375">ContractCntrl</node>
             <node x="366.0" y="582.283984375">TutorFull</node>
+            <node x="0.0" y="290.283984375">ContractCntrl</node>
             <node x="237.0" y="655.283984375">SebChm</node>
-            <node x="700.0" y="947.283984375">Edu</node>
-            <node x="263.0" y="436.283984375">VCirriculum</node>
             <node x="894.0" y="947.283984375">Gek</node>
+            <node x="263.0" y="436.283984375">VCirriculum</node>
+            <node x="700.0" y="947.283984375">Edu</node>
             <node x="0.0" y="436.283984375">Examsheet</node>
             <node x="234.0" y="728.283984375">UserList</node>
             <node x="321.0" y="144.283984375">DiplomWorkType</node>
@@ -915,26 +909,26 @@
             <node x="0.0" y="947.283984375">Spec</node>
             <node x="2.0" y="71.283984375">Speciality</node>
             <node x="729.0" y="582.283984375">Contract</node>
-            <node x="797.0" y="947.283984375">Seb</node>
             <node x="110.0" y="874.283984375">Diplom</node>
+            <node x="797.0" y="947.283984375">Seb</node>
             <node x="655.0" y="436.283984375">SmstrType</node>
-            <node x="650.0" y="874.283984375">Name</node>
             <node x="97.0" y="1020.283984375">Lng</node>
+            <node x="650.0" y="874.283984375">Name</node>
             <node x="487.0" y="582.283984375">Surname</node>
-            <node x="711.0" y="290.283984375">BuildingType</node>
             <node x="899.0" y="217.283984375">TrainLevelLng</node>
-            <node x="709.0" y="655.283984375">CirrItem</node>
+            <node x="711.0" y="290.283984375">BuildingType</node>
             <node x="436.0" y="874.283984375">Swork</node>
+            <node x="709.0" y="655.283984375">CirrItem</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="TrainLevel" target="CmpSpeciality">
-              <point x="41.5" y="-0.0" />
-              <point x="-50.0" y="-7.0" />
-            </edge>
             <edge source="Speciality" target="CmpSpeciality">
               <point x="39.5" y="-0.0" />
               <point x="-50.0" y="7.0" />
+            </edge>
+            <edge source="TrainLevel" target="CmpSpeciality">
+              <point x="41.5" y="-0.0" />
+              <point x="-50.0" y="-7.0" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="0.7782974742750234" x="31.0" y="38.0" />
@@ -1051,150 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f9_netzke.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>#netzke-demo</OriginalElement>
-          <nodes>
-            <node x="759.0" y="254.0">UserSessWork</node>
-            <node x="698.0" y="765.0">EduDoc</node>
-            <node x="502.0" y="546.0">Reviewer</node>
-            <node x="164.0" y="181.0">OrderActionType</node>
-            <node x="100.0" y="984.0">Subj</node>
-            <node x="200.0" y="984.0">Patr</node>
-            <node x="583.0" y="765.0">Building</node>
-            <node x="467.0" y="765.0">PatrLng</node>
-            <node x="154.0" y="254.0">SessResultItem</node>
-            <node x="841.0" y="0.0">UserSessPayment</node>
-            <node x="324.0" y="911.0">Room</node>
-            <node x="525.0" y="473.0">UserGroup</node>
-            <node x="0.0" y="692.0">Semestr</node>
-            <node x="788.0" y="838.0">Zodiac</node>
-            <node x="492.0" y="0.0">UserListCmpSpeciality</node>
-            <node x="547.0" y="400.0">Gekmember</node>
-            <node x="351.0" y="765.0">Ministry</node>
-            <node x="0.0" y="619.0">Napryam</node>
-            <node x="927.0" y="765.0">Faculty</node>
-            <node x="682.0" y="400.0">SebMember</node>
-            <node x="299.0" y="984.0">Mn0</node>
-            <node x="126.0" y="546.0">DeptType</node>
-            <node x="122.0" y="619.0">RoomPer</node>
-            <node x="847.0" y="619.0">DeptLng</node>
-            <node x="114.0" y="838.0">Sgroup</node>
-            <node x="914.0" y="473.0">Worktype</node>
-            <node x="788.0" y="984.0">Fn0</node>
-            <node x="885.0" y="984.0">Fn1</node>
-            <node x="325.0" y="181.0">DiplomWorkTopic</node>
-            <node x="800.0" y="181.0">DiplomReviewer</node>
-            <node x="398.0" y="984.0">Mn1</node>
-            <node x="907.0" y="254.0">PhoneNoType</node>
-            <node x="944.0" y="692.0">SubjLng</node>
-            <node x="234.0" y="765.0">Eduqual</node>
-            <node x="486.0" y="619.0">EduForm</node>
-            <node x="728.0" y="619.0">EduCost</node>
-            <node x="276.0" y="400.0">RoomPhone</node>
-            <node x="955.0" y="181.0">ExamsheetItem</node>
-            <node x="873.0" y="546.0">PhoneNo</node>
-            <node x="708.0" y="692.0">Cafedra</node>
-            <node x="394.0" y="473.0">SessResult</node>
-            <node x="536.0" y="911.0">Topic</node>
-            <node x="244.0" y="619.0">TutorFull</node>
-            <node x="145.0" y="327.0">ContractCntrl</node>
-            <node x="118.0" y="692.0">SebChm</node>
-            <node x="691.0" y="984.0">Gek</node>
-            <node x="263.0" y="473.0">VCirriculum</node>
-            <node x="497.0" y="984.0">Edu</node>
-            <node x="0.0" y="473.0">Examsheet</node>
-            <node x="117.0" y="765.0">UserList</node>
-            <node x="485.0" y="181.0">DiplomWorkType</node>
-            <node x="0.0" y="254.0">AorderSubType</node>
-            <node x="626.0" y="546.0">VSemestr</node>
-            <node x="817.0" y="400.0">AorderItem</node>
-            <node x="0.0" y="765.0">Student</node>
-            <node x="610.0" y="254.0">CmpTrainLevel</node>
-            <node x="459.0" y="254.0">VSesscirriculum</node>
-            <node x="575.0" y="327.0">SpecialityLng</node>
-            <node x="0.0" y="546.0">CntrlType</node>
-            <node x="0.0" y="400.0">EduFormLng</node>
-            <node x="0.0" y="838.0">License</node>
-            <node x="3.5" y="0.0">TrainLevel</node>
-            <node x="340.0" y="838.0">Person</node>
-            <node x="951.0" y="400.0">OrderState</node>
-            <node x="236.0" y="692.0">Teacher</node>
-            <node x="96.0" y="1057.0">Ibe</node>
-            <node x="813.0" y="765.0">Agroup</node>
-            <node x="742.0" y="911.0">Dept</node>
-            <node x="750.0" y="546.0">NameLng</node>
-            <node x="412.0" y="400.0">DiplomTopic</node>
-            <node x="644.0" y="181.0">FacultyEduForm</node>
-            <node x="640.0" y="911.0">Cntrl</node>
-            <node x="826.0" y="692.0">Privcard</node>
-            <node x="675.0" y="0.0">EduFinancingType</node>
-            <node x="898.0" y="838.0">School</node>
-            <node x="995.0" y="327.0">DeptPosition</node>
-            <node x="377.0" y="546.0">UserType</node>
-            <node x="0.0" y="911.0">Nabor</node>
-            <node x="452.0" y="838.0">Aorder</node>
-            <node x="138.0" y="400.0">SurnameLng</node>
-            <node x="966.0" y="619.0">CntrlLng</node>
-            <node x="289.0" y="327.0">CntrlTypeLng</node>
-            <node x="252.0" y="546.0">Invitation</node>
-            <node x="108.0" y="911.0">Ayear</node>
-            <node x="785.0" y="473.0">WorkTopic</node>
-            <node x="0.0" y="984.0">Cmp</node>
-            <node x="307.0" y="254.0">CmpStateExam</node>
-            <node x="432.0" y="327.0">TrainingCycle</node>
-            <node x="472.0" y="692.0">DeptPer</node>
-            <node x="564.0" y="838.0">Golova</node>
-            <node x="946.0" y="911.0">Sess</node>
-            <node x="995.0" y="546.0">Tposition</node>
-            <node x="0.0" y="1057.0">Okr</node>
-            <node x="280.0" y="34.0">CmpSpeciality</node>
-            <node x="676.0" y="838.0">Region</node>
-            <node x="716.0" y="327.0">UserPrivcard</node>
-            <node x="227.0" y="838.0">LicItem</node>
-            <node x="191.0" y="1057.0">Fib</node>
-            <node x="132.0" y="473.0">OrderType</node>
-            <node x="0.0" y="181.0">TrainingCycleSubj</node>
-            <node x="354.0" y="692.0">SbeChm</node>
-            <node x="844.0" y="911.0">Spec</node>
-            <node x="0.0" y="88.0">Speciality</node>
-            <node x="607.0" y="619.0">Contract</node>
-            <node x="1008.0" y="838.0">Diplom</node>
-            <node x="594.0" y="984.0">Seb</node>
-            <node x="655.0" y="473.0">SmstrType</node>
-            <node x="982.0" y="984.0">Lng</node>
-            <node x="430.0" y="911.0">Name</node>
-            <node x="365.0" y="619.0">Surname</node>
-            <node x="0.0" y="327.0">TrainLevelLng</node>
-            <node x="856.0" y="327.0">BuildingType</node>
-            <node x="216.0" y="911.0">Swork</node>
-            <node x="590.0" y="692.0">CirrItem</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="TrainLevel" target="CmpSpeciality">
-              <point x="96.5" y="-0.0" />
-              <point x="-83.5" y="-17.0" />
-            </edge>
-            <edge source="Speciality" target="CmpSpeciality">
-              <point x="100.0" y="-0.0" />
-              <point x="-83.5" y="17.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0773755656108597" x="545.0" y="5.0" />
-          <SelectedNodes>
-            <node>CmpSpeciality</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Migration fields</Category>
-            <Category>Association fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/village.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -1206,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,14 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/geo_entity.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3284" max-vertical-offset="4233">
@@ -1310,6 +1148,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140325151226_add_region_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="838">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/geo_entity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06085919" vertical-offset="0" max-vertical-offset="838">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

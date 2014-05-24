@@ -3,6 +3,7 @@ class GeoEntity < ActiveRecord::Base
   self.primary_key= 'id'
   self.inheritance_column = 'grou_'
 
+
   # Constraints
   validates_numericality_of :id, :start_pstidx, :finish_pstidx, :grou_, :owner
   validates_presence_of :id, :name, :grou_, :owner
@@ -11,10 +12,10 @@ class GeoEntity < ActiveRecord::Base
   default_scope order: 'name ASC'
 
   TYPE_MAP = {
-      0 => 'Country',
-      1 => 'Region',
-      2 => 'District',
-      3 => 'Village'
+      0 => 'Country',     # - страна
+      1 => 'Region',      # - Область (отдельная административная единица)
+      2 => 'District',    # - город (район)
+      3 => 'Village'      # - село, поселок
   }
 
   class << self
